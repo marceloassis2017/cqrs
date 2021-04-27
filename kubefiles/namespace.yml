@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: quarkus-cqrs-demo
+  label:
+    name: quarkus-cqrs-demo
+    istio-injection: disabled
